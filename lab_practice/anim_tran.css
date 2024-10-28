@@ -1,0 +1,44 @@
+.animated-button
+{
+    padding: 10px 20px;
+    background-color: yellowgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    transition: background-color 0.5s, transform 0.3s;
+}
+.animated-button:hover
+{
+    background-color: aquamarine;
+    transform: scale(1.1);
+
+}
+.animated-button:active
+{
+    transform: scale(0.9);
+    background-color: black;
+    color: grey;
+    /*transform: rotate(360deg);*/
+}
+.logo-container
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.logo
+{
+    width: 100px;
+    animation: bounce 2s infinite;
+}
+@keyframes bounce
+{
+    0%, 100% /*0%, 100% specifies the from(0) and the end(100) */
+    {
+        transform: translateY(0);
+    }
+    50% /*50% specifies the middle of the animation*/
+    {
+        transform: translateY(-20px);
+    }
+}

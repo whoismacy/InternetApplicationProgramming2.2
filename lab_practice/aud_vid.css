@@ -1,0 +1,23 @@
+body
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: yellowgreen;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1,h2
+{
+    color: red;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid purple;
+    border-radius: 8px;
+}
+video
+{
+    max-width: 500px;
+    max-height: 500px;
+}

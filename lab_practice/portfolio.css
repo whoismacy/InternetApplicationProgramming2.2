@@ -1,0 +1,106 @@
+body
+{
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgba(58, 3, 3, 0.789);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header
+{
+    background-color: yellowgreen;
+    color: white;
+    padding: 20px 0;
+}
+header h1
+{
+    margin: 0;
+}
+header p
+{
+    font-size: 18px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li
+{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: indigo;
+    font-weight: 600;
+}
+
+section
+{
+    padding: 40px 20px;
+}
+
+.project-grid
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.project
+{
+    background-color: white;
+    border:1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+form
+{
+    display: inline-block;
+    text-align: center;
+}
+form label
+{
+    display: block;
+    margin: 10px 0 5px;
+}
+form input, form textarea
+{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+
+    transition: background-color 0.3s, color 0.2s;
+}
+button:hover
+{
+    background-color: black;
+    color: grey
+}
+
+footer
+{
+    background-color: yellowgreen;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

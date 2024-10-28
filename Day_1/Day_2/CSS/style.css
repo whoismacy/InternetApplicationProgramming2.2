@@ -1,0 +1,58 @@
+/*my first css*/
+
+body
+{
+    font-family:Fira Code, Helvetica, sans-serif;
+    background-color: #CEF09D;
+    color:#1F0802;
+}
+p{
+    color: grey;
+}
+img
+{
+    border: 10px solid greenyellow;
+}
+h1
+{
+    border: 10px dotted pink;
+    text-align: center;
+    background-color:aqua;
+}
+blockquote
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style:italic;
+    text-align: center;
+}
+cite
+{
+    font-size: 2rem;
+}
+.cat-paragraph
+{
+    font-weight:bold;
+    font-size: 1.3rem;
+}
+h2, h3{
+    color:#38184C;
+}
+ul a:link{
+    color: paleturquoise;
+    text-decoration: none;
+}
+a:visited{
+    color: seagreen;
+}
+
+a:hover
+{
+    color:red;
+    text-decoration: dashed;
+    background-color:black;
+}
+a.harvard
+{
+    color: purple;
+}

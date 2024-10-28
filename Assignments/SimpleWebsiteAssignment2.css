@@ -1,0 +1,101 @@
+*
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Ask for its function*/
+}
+body
+{
+    background-color:#10454F ;
+}
+p, footer
+{
+    margin: 15px;
+}
+.maincont
+{
+    flex: 1;
+    padding: 20px;
+}
+.navigationbar
+{
+    background-color: rgb(97, 58, 7);
+    color:white;
+    padding: 10px;
+}
+.navigationbar ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.navigationbar li
+{
+    margin: 0;
+}
+.navigationbar a
+{
+    text-decoration: none;
+    color: white;
+    padding: 8px 8px;
+}
+.navigationbar a:hover
+{
+    color: #818274;
+}
+.container
+{
+    display: flex;
+    height: 100vh;
+}
+.sidebar
+{
+    background-color: #BDE038;
+    width: 232px;
+    padding: 20px;
+}
+.sidebar:hover
+{
+    background-color: darksalmon;
+}
+.sidebar ul
+{
+    list-style-type: none;
+}
+.sidebar li
+{
+    margin: 8px 4px  0;
+}
+.sidebar a
+{
+    color: #112;
+    text-decoration: none;
+}
+.sidebar a:hover
+{
+    color: #007BFF;
+}
+.ftlink
+{
+    color: rgb(176, 57, 57);
+    text-decoration: none;
+}
+.quote
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: 18px 18px 18px 18px;
+    color: orange;
+}
+.submission
+{
+    padding: 3px;
+    margin-left: 550px;
+    background-color: orange;
+}
+.submission:hover
+{
+    color: #BDE038;
+    background-color: burlywood;
+}

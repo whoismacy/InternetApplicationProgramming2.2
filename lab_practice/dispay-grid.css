@@ -1,0 +1,47 @@
+nav ul
+{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: #555;
+    padding: 10px;
+}
+
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.product{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.product img
+{
+    width: 100%;
+    height: auto;
+}
+
+.grid-container /*look into*/
+{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px)  /*look into*/
+{
+    .grid-container
+    {
+        grid-template-columns: 1fr;
+    }
+}
+
+.images{
+    width: 100px;
+    height: 89px;
+}

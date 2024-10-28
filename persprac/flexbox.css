@@ -1,0 +1,82 @@
+body{
+    background-color: burlywood;
+}
+.wrapper
+{
+    width: 100%;
+    margin: 0 auto;
+}
+nav
+{
+    background-color: orangered;
+}
+nav  ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+nav  a
+{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
+nav a:hover
+{
+    background-color: purple;
+}
+nav a:focus
+{
+    background-color: lightgreen;
+}
+a.fb
+{
+    background: url('facebook.jpg') no-repeat center;
+    background-size: 66%;
+}
+a.tw
+{
+    background: url('bird.jpg') no-repeat center;
+    background-size: 66%;
+}
+.social
+{
+    max-width: 100px;
+    margin: 0 auto;
+}
+nav ul.social
+{
+    display: flex;
+    flex: 1 1 0;
+}
+nav ul.social li
+{
+    flex: 1 1 0;
+}
+.social a
+{
+    text-indent: -10000px;
+}
+@media screen and (min-width: 768px)
+{
+    nav ul
+    {
+        display: flex;
+    }
+
+    nav li
+    {
+        flex: 1 1 0;
+    }
+
+    nav
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    .social
+    {
+        margin: 0;
+    }
+}

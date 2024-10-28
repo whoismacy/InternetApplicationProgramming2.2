@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FormsInHTML</title>
+</head>
+<body>
+    <h1>header</h1>
+    <fieldset>
+        <legend>You contact information someone just got catfished</legend>
+        <form action="" method="post">
+            <input type="text" name="email" placeholder="Your Email address">
+            <br>
+            <br>
+            <input type="text" name="email" value="Your Email address">
+            <br>
+            <br>
+            <label for="gender">Select your gender:</label>
+            <br>
+            Male:<input type="radio" name="gender" value="Male" id="gender">
+            Female:<input type="radio" name="gender" value="Female" id="gender">
+            Other:<input type="radio" name="gender" value="Other" id="gender" checked>
+            <br>
+            <br>
+            <input type="password" name="pwd" placeholder="password">
+            <br>
+            <br>
+            <textarea name="message" placeholder="Input your message!"></textarea>
+            <select name="car">
+                <option value="none">None</option>
+                <option value="car1">Ford</option>
+                <option value="car2">Mercedes</option>
+                <option value="car3">Bentley</option>
+            </select>
+            <br>
+            <label for="typeofclothing">Choose your type of clothing:</label>
+            <br>
+            <select name="Type of clothing" id="typeofclothing">
+                <option value="none">None</option>
+                <option value="clothing1">Shirt</option>
+                <option value="clothing2">Pants</option>
+                <option value="clothing3">Shoes</option>
+                <option value="clothing4">Skinny Jeans</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" name="Submit Query">
+
+        </form>
+    </fieldset>
+</body>
+</html>

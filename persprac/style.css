@@ -1,0 +1,35 @@
+body
+{
+    background-image: url(pexels-philippedonn-1257860.jpg);
+    color: orange;
+}
+form
+{
+    width: 500px;
+}
+textarea
+{
+    resize: vertical;
+    max-height: 100px;
+    width: 200px;
+}
+input, textarea
+{
+    outline: none;
+    border: 1px solid #ccc;
+}
+input:focus, textarea:focus
+{
+    box-shadow: 0 0 5px orangered;
+    border: 1px solid #ccc;
+
+}
+form::placeholder
+{
+    color: brown;
+    opacity: 1;
+}
+fieldset
+{
+    max-width: 300px;
+}
