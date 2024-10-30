@@ -1,0 +1,95 @@
+body
+{
+    color: rgb(90, 3, 3);
+}
+img
+{
+    animation: bouncy 1.96s infinite;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+}
+
+*
+{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+    text-align: center;
+}
+blockquote
+{
+    font-size: 20px;
+    text-decoration:solid;
+    padding: 0 45px;
+}
+p
+{
+    margin: 12px;
+}
+.maincontent
+{
+    display: flex;
+    flex:1;
+}
+
+.content
+{
+    padding: 20px;
+}
+.header
+{
+    background-color: yellowgreen;
+    padding: 0;
+    margin: 0;
+}
+.header ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px;
+}
+.header ul a, .sidebar ul a
+{
+    text-decoration: none;
+}
+.sidebar
+{
+    background-color: palegoldenrod;
+    width: 0;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    transition: width 250ms ease-in;
+}
+.sidebar ul
+{
+    list-style-type: none;
+    padding: 0 15px;
+}
+.sidebar ul li
+{
+    padding: 20px 0;
+}
+.maincontent:hover .sidebar
+{
+    width: 320px;
+}
+
+@keyframes bouncy {
+    0%, 100%
+    {
+        transform: translateY(0);
+    }
+    50%
+    {
+        transform: translateY(-20px);
+    }
+    
+}
