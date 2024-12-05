@@ -1,0 +1,37 @@
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box
+{
+    font-size: 2rem;
+    background-color: pink;
+
+    /*Box Model*/
+    width: 300px;
+    height: 100px;
+    /* padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    padding-right: 32px; */
+    /* padding: 20px 30px; top-bottom right-left */
+    padding: 32px; /*top right bottom left*/ 
+    border: 5px solid yellowgreen; /*border-width border-style border-color*/
+    /* margin: 14px 16px 18px 20px; */
+    margin: 0;
+    /* box-sizing: content-box; default beahaivour by this the width and height of an element include only the content area. 
+    Padding and borders are added outside the specified width and height, making the element larger.
+    box-sizing: border-box; The padding and border are included in the element's specified width and height
+    This makes it easier to size elements predictably */
+    box-sizing: border-box;
+}
+
+  

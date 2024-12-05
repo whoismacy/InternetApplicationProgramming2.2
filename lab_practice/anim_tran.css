@@ -6,11 +6,11 @@
     border: none;
     cursor: pointer;
 
-    transition: background-color 0.5s, transform 0.3s;
-}
+    transition: background-color 0.3s, transform 0.4s;
+}zzzzzz
 .animated-button:hover
 {
-    background-color: aquamarine;
+    background-color: yellow;
     transform: scale(1.1);
 
 }
